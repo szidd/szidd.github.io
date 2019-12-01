@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 <title>SZID</title>
-<link href="styles/index.44c3c30b.css" rel="stylesheet"></head>
+<link href="styles/index.8578d1ab.css" rel="stylesheet"></head>
 <body>
     <section id="header">
 
@@ -33,41 +33,34 @@
             <li class="dev__item" id="btn--light">Żarówka
             </li>
   
-                <div id="item1" class="dev__item--1 bg">
+                <li id="item1" class="dev__item--1 bg">
                     <form action="">
                         
                         <img class="lamp" alt="image" id="img1" src="images/lamp-on.svg">
                         <img class="lamp" alt="image" id="img2" src="images/lamp-off.svg">
-                
                         <a  id="lamp" class="btn btn--form">Włącz</a>
-                        
                     </form>
-                </div>
+                </li>
          
             <li class="dev__item" id="btn--bake">Piec</li>
-            <div id="item2" class="dev__item--2 bg">
-                    
-     
+            <li id="item2" class="dev__item--2 bg">
                 <form action="">
                     <h2>Ustaw temperature</h2>
                     <input type="number" name="" id="bake--input">
                     <a  class="btn btn--form" id="btn--bake--send">Zatwierdź</a>
                     <div id="send"></div>
                 </form>
-              
-            </div>
+            </li>
 
             <li class="dev__item" id="btn--heater">Grzejnik</li>
-            <div id="item3" class="dev__item--3 bg">
-                    
-     
-                    <form action="">
-                        <h2>Ustaw temperature</h2>
-                        <input type="number" name=""id="heat--input">
-                        <a  class="btn btn--form" id="btn--heater--send">Zatwierdź</a>
-                        <div id="send2"></div>
-                    </form>
-                </div>
+            <li id="item3" class="dev__item--3 bg">
+                <form action="">
+                    <h2>Ustaw temperature</h2>
+                    <input type="number" name=""id="heat--input">
+                    <a  class="btn btn--form" id="btn--heater--send">Zatwierdź</a>
+                    <div id="send2"></div>
+                </form>
+            </li>
         </ol>
 
         <ol class="dev" id="device-list">
@@ -76,7 +69,7 @@
 
         <div class="center">
         <select class="klikacz" id="selectValue" name="selectDev">
-            <option value="zarowka"  selected>zarowka</option>
+            <option value="zarowka"  selected>żarówka</option>
             <option value="piec">piec</option>
             <option value="grzejnik">grzejnik</option>
 
@@ -98,16 +91,18 @@
 
 
         <div class="guziki">
-        
+
         <div class="dev__item" id="btnczujnik">Pomiary Czujników</div>
-        <div class="flex" id="diagramCzujnik">
-                <iframe width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiOTJhYzg3ZTMtN2QwMS00YWQ4LWFmZWQtM2JjMDQyNjViNzFjIiwidCI6ImExM2E5ODg3LTliOTAtNDkzYy05NDMxLTlhNTY4NTBhMzY0MCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>    
+        <div class="flex" id="diagramCzujnik" style="padding-bottom:56.25%; position:relative; display:block; width: 90%; display: none;">
+            <iframe class="ViostreamIframe" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiMzNiNDRiM2MtMTY1ZS00MjFjLTgxZWEtNjU5MWZkOTMwYmNjIiwidCI6ImExM2E5ODg3LTliOTAtNDkzYy05NDMxLTlhNTY4NTBhMzY0MCIsImMiOjh9" frameborder="0" allowfullscreen=""></iframe>                 
         </div>
         <div class="dev__item" id="btnurzadzenia">Efektory i Czujniki w Domu</div>
-  
-            <div class="flex" id="diagramUrzadzenia">
-             <iframe width="933" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiZTgyOGI4MTItOTIwMi00MDA2LWJiMDAtZGYwMTdjMGRlODNjIiwidCI6ImExM2E5ODg3LTliOTAtNDkzYy05NDMxLTlhNTY4NTBhMzY0MCIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+        <div class="flex" id="diagramUrzadzenia" style="padding-bottom:56.25%; position:relative; display:block; width: 90%; display: none;">
+
+            <iframe class="ViostreamIframe" width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZTgyOGI4MTItOTIwMi00MDA2LWJiMDAtZGYwMTdjMGRlODNjIiwidCI6ImExM2E5ODg3LTliOTAtNDkzYy05NDMxLTlhNTY4NTBhMzY0MCIsImMiOjh9" frameborder="0" allowfullscreen=""></iframe>                 
         </div>
+  
+            
     </div>
     
     <div class="flex__btn">
@@ -119,5 +114,5 @@
 
 
 
-<script type="text/javascript" src="scripts/index.44c3c30b.js"></script></body>
+<script type="text/javascript" src="scripts/index.8578d1ab.js"></script></body>
 </html>
